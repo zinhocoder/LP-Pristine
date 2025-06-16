@@ -344,7 +344,7 @@ export default function PristineCleanLanding() {
               <div className="w-20 sm:w-24 md:w-32 h-1.5 sm:h-2 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mx-auto"></div>
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-slate-800 max-w-5xl mx-auto font-medium leading-relaxed">
-              Mais de <span className="text-blue-700 font-black">5.000 estofados transformados</span> com tecnologia de
+              Mais de <span className="text-blue-700 font-black">1.000 estofados transformados</span> com tecnologia de
               ponta e produtos biodegradáveis
             </p>
           </div>
@@ -535,6 +535,94 @@ export default function PristineCleanLanding() {
         </div>
       </section>
 
+      {/* Specialist Section */}
+      <section className="py-16 sm:py-24 md:py-32 bg-white relative overflow-hidden">
+        {/* Blue background effects */}
+        <div className="absolute top-0 left-1/4 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-300/15 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/10 via-transparent to-blue-100/10"></div>
+
+        <div className="container mx-auto px-4 sm:px-6 relative">
+          <div className="grid lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-20 items-center">
+            <div className="space-y-8 sm:space-y-12">
+              <div className="space-y-6 sm:space-y-8">
+                <Badge className="bg-blue-100 text-blue-800 px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-bold rounded-full shadow-lg">
+                  ✨ Especialista Certificado
+                </Badge>
+                <div className="space-y-4 sm:space-y-6">
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-blue-900 tracking-tighter leading-tight">
+                    Conheça nosso{" "}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-600 to-blue-800">
+                      especialista
+                    </span>
+                  </h2>
+                  <div className="w-16 sm:w-24 h-1.5 sm:h-2 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full"></div>
+                </div>
+                <div className="space-y-6 sm:space-y-8">
+                  <p className="text-lg sm:text-xl md:text-2xl text-slate-800 leading-relaxed font-medium">
+                    Com mais de <span className="text-blue-700 font-bold">5 anos de experiência</span> em higienização
+                    profissional, nosso especialista já transformou mais de 1.000 estofados em toda a região de
+                    Curitiba.
+                  </p>
+                  <div className="space-y-4 sm:space-y-6">
+                    <div className="flex items-center space-x-3 sm:space-x-4">
+                      <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0" />
+                      <span className="font-bold text-base sm:text-lg text-slate-800">
+                        Certificação em higienização profissional
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3 sm:space-x-4">
+                      <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0" />
+                      <span className="font-bold text-base sm:text-lg text-slate-800">
+                        Especialista em remoção de manchas complexas
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3 sm:space-x-4">
+                      <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0" />
+                      <span className="font-bold text-base sm:text-lg text-slate-800">
+                        Treinamento em produtos biodegradáveis
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3 sm:space-x-4">
+                      <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0" />
+                      <span className="font-bold text-base sm:text-lg text-slate-800">
+                        Atendimento personalizado e consultivo
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="bg-white rounded-3xl shadow-3xl p-6 sm:p-8 md:p-12 border border-blue-100 backdrop-blur-sm">
+                <div className="rounded-2xl overflow-hidden shadow-xl mb-6 sm:mb-8">
+                  <Image
+                    src="/images/especialista.jpg"
+                    alt="Especialista em higienização de estofados"
+                    width={400}
+                    height={500}
+                    className="w-full h-80 sm:h-96 md:h-[500px] object-cover"
+                  />
+                </div>
+                <div className="text-center">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-2 sm:mb-3">João Silva</h3>
+                  <p className="text-blue-600 font-bold text-base sm:text-lg mb-4 sm:mb-6">
+                    Especialista em Higienização
+                  </p>
+                  <div className="bg-blue-50 rounded-2xl p-4 sm:p-6">
+                    <p className="text-slate-800 font-semibold italic text-sm sm:text-base leading-relaxed">
+                      "Minha missão é devolver a vida aos seus estofados, criando um ambiente mais saudável e
+                      aconchegante para sua família. Cada trabalho é único e merece atenção especial."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="py-16 sm:py-24 md:py-32 bg-gradient-to-br from-slate-50 to-blue-50/30 relative overflow-hidden">
         {/* Blue background effects */}
@@ -554,51 +642,71 @@ export default function PristineCleanLanding() {
               <div className="w-20 sm:w-24 md:w-32 h-1.5 sm:h-2 bg-gradient-to-r from-blue-600 to-blue-600 rounded-full mx-auto"></div>
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-slate-800 font-semibold">
-              Mais de <span className="text-blue-700 font-black">1.000 famílias satisfeitas</span>
+              Avaliações <span className="text-blue-700 font-black">reais</span> de clientes satisfeitos
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
-            {[
-              {
-                name: "Ana Paula Silva",
-                rating: 5,
-                comment: "Incrível! Meu sofá estava com manchas antigas e ficou como novo. Recomendo demais!",
-                service: "Sofá 2 lugares",
-              },
-              {
-                name: "Carlos Mendes",
-                rating: 5,
-                comment: "Profissionais muito competentes. O cheiro ruim do estofado sumiu completamente.",
-                service: "Poltrona reclinável",
-              },
-              {
-                name: "Mariana Costa",
-                rating: 5,
-                comment: "Serviço rápido e eficiente. Agendei pela manhã e à tarde já estava pronto!",
-                service: "Conjunto de poltronas",
-              },
-            ].map((testimonial, index) => (
-              <Card
-                key={index}
-                className="shadow-2xl border-0 bg-white hover:shadow-3xl transition-all duration-700 hover:-translate-y-2"
-              >
-                <CardContent className="p-6 sm:p-8 md:p-10">
-                  <div className="flex mb-6 sm:mb-8">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-yellow-400 fill-current" />
-                    ))}
-                  </div>
-                  <p className="text-slate-800 mb-6 sm:mb-8 italic text-lg sm:text-xl font-semibold leading-relaxed">
-                    "{testimonial.comment}"
-                  </p>
-                  <div className="border-t pt-6 sm:pt-8">
-                    <p className="font-black text-slate-900 text-lg sm:text-xl">{testimonial.name}</p>
-                    <p className="text-slate-600 font-bold text-sm sm:text-base">{testimonial.service}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="shadow-2xl border-0 bg-white hover:shadow-3xl transition-all duration-700 hover:-translate-y-2">
+              <CardContent className="p-6 sm:p-8 md:p-10">
+                <div className="flex mb-6 sm:mb-8">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-slate-800 mb-6 sm:mb-8 italic text-lg sm:text-xl font-semibold leading-relaxed">
+                  "Serviço muito caprichoso e cuidadoso! 👏 Além de manchas de uso humano, tenho duas gatas então havia
+                  muito pelo e mancha de xixi recente. Com a higienização o sofá ficou muito limpo, mais claro e com
+                  cara de novo. Os produtos usados são de muita qualidade, me surpreendi com a cor da 'água' que saiu
+                  kkk"
+                </p>
+                <div className="border-t pt-6 sm:pt-8">
+                  <p className="font-black text-slate-900 text-lg sm:text-xl">Yanka Cardoso</p>
+                  <p className="text-slate-600 font-bold text-sm sm:text-base">Local Guide · 22 avaliações</p>
+                  <p className="text-slate-500 text-xs sm:text-sm mt-1">há 1 mês</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-2xl border-0 bg-white hover:shadow-3xl transition-all duration-700 hover:-translate-y-2">
+              <CardContent className="p-6 sm:p-8 md:p-10">
+                <div className="flex mb-6 sm:mb-8">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-slate-800 mb-6 sm:mb-8 italic text-lg sm:text-xl font-semibold leading-relaxed">
+                  "Fiquei extremamente satisfeito com o serviço de higienização e impermeabilização dos meus estofados!
+                  Desde o atendimento inicial até a finalização do trabalho, a equipe foi profissional, atenciosa e
+                  demonstrou um grande conhecimento sobre os produtos utilizados. Meus sofás ficaram como novos e a
+                  impermeabilização trouxe mais segurança para o dia a dia."
+                </p>
+                <div className="border-t pt-6 sm:pt-8">
+                  <p className="font-black text-slate-900 text-lg sm:text-xl">Diego Fernandez</p>
+                  <p className="text-slate-600 font-bold text-sm sm:text-base">2 avaliações</p>
+                  <p className="text-slate-500 text-xs sm:text-sm mt-1">há 2 meses</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-2xl border-0 bg-white hover:shadow-3xl transition-all duration-700 hover:-translate-y-2">
+              <CardContent className="p-6 sm:p-8 md:p-10">
+                <div className="flex mb-6 sm:mb-8">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-slate-800 mb-6 sm:mb-8 italic text-lg sm:text-xl font-semibold leading-relaxed">
+                  "Ótimo serviço, deixou o sofá completamente novo e limpo. Além do atendimento ser muito bom, pontual e
+                  o preço justo."
+                </p>
+                <div className="border-t pt-6 sm:pt-8">
+                  <p className="font-black text-slate-900 text-lg sm:text-xl">Valmor Dantas Marlos Junior</p>
+                  <p className="text-slate-600 font-bold text-sm sm:text-base">2 avaliações</p>
+                  <p className="text-slate-500 text-xs sm:text-sm mt-1">há 2 semanas</p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -627,7 +735,7 @@ export default function PristineCleanLanding() {
               <div className="w-20 sm:w-24 md:w-32 h-1.5 sm:h-2 bg-white rounded-full mx-auto"></div>
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-12 sm:mb-16 opacity-90 font-semibold leading-relaxed">
-              Mais de <span className="font-black">5.000 estofados revitalizados</span> com sucesso. Profissionais
+              Mais de <span className="font-black">1.000 estofados revitalizados</span> com sucesso. Profissionais
               treinados e equipamentos de última geração.
             </p>
 
@@ -636,16 +744,12 @@ export default function PristineCleanLanding() {
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Shield className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">Garantia de 30 dias</h3>
-                <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
-                  Se não ficar satisfeito, refazemos o serviço
-                </p>
               </div>
               <div className="flex flex-col items-center group">
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Users className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">+5.000 clientes</h3>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">+1.000 clientes</h3>
                 <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
                   Famílias satisfeitas em toda a região
                 </p>
@@ -753,7 +857,7 @@ export default function PristineCleanLanding() {
               <div className="w-20 sm:w-24 md:w-32 h-1.5 sm:h-2 bg-white rounded-full mx-auto"></div>
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-12 sm:mb-16 opacity-90 font-semibold leading-relaxed">
-              Mais de <span className="font-black">5.000 estofados revitalizados</span> com sucesso. Profissionais
+              Mais de <span className="font-black">1.000 estofados revitalizados</span> com sucesso. Profissionais
               treinados e equipamentos de última geração.
             </p>
 
@@ -762,16 +866,12 @@ export default function PristineCleanLanding() {
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Shield className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">Garantia de 30 dias</h3>
-                <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
-                  Se não ficar satisfeito, refazemos o serviço
-                </p>
               </div>
               <div className="flex flex-col items-center group">
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Users className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">+5.000 clientes</h3>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">+1.000 clientes</h3>
                 <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
                   Famílias satisfeitas em toda a região
                 </p>
