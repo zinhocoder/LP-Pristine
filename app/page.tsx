@@ -606,7 +606,7 @@ export default function PristineCleanLanding() {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-2 sm:mb-3">João Silva</h3>
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-2 sm:mb-3">Diego Fernández</h3>
                   <p className="text-blue-600 font-bold text-base sm:text-lg mb-4 sm:mb-6">
                     Especialista em Higienização
                   </p>
@@ -744,6 +744,10 @@ export default function PristineCleanLanding() {
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Shield className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">Garantia</h3>
+                <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
+                  Garantia de serviços de qualidade
+                </p>
               </div>
               <div className="flex flex-col items-center group">
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
@@ -866,6 +870,10 @@ export default function PristineCleanLanding() {
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
                   <Shield className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12" />
                 </div>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-4 sm:mb-6">Garantia</h3>
+                <p className="opacity-90 font-semibold leading-relaxed text-base sm:text-lg">
+                  Garantia de serviços de qualidade
+                </p>
               </div>
               <div className="flex flex-col items-center group">
                 <div className="bg-white/20 backdrop-blur-sm w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-3xl flex items-center justify-center mb-6 sm:mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-500">
