@@ -137,7 +137,20 @@ function BeforeAfterCard({
 function WhatsAppButton() {
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8 z-50">
-      <a href="https://wa.me/554191217963?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20estou%20querendo%20saber%20mais%20sobre%20os%20servi%C3%A7os" target="_blank" rel="noopener noreferrer" className="inline-block">
+      <a
+        href="https://wa.me/554191217963?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20estou%20querendo%20saber%20mais%20sobre%20os%20servi%C3%A7os"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block"
+        id="whatsapp-button"
+        onClick={() => {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: 'whatsapp_click',
+            whatsapp_url: 'https://wa.me/554191217963'
+          });
+        }}
+      >
         <Button
           size="lg"
           className="bg-green-500 hover:bg-green-600 text-white rounded-full w-16 h-16 sm:w-20 sm:h-20 p-0 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 border-4 border-white"
@@ -160,6 +173,7 @@ function WhatsAppButton() {
     </div>
   )
 }
+
 
 export default function PristineCleanLanding() {
   return (
